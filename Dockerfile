@@ -13,7 +13,7 @@ ENTRYPOINT ["java","-jar","/app.jar"]
 
 
 #run command
-#docker run -p 8080:8582 storelocator
+#docker run -p 8285:8582 storelocator
 
 #gradle run
 #./gradlew build && java -jar build/libs/storeLocator-0.0.1-SNAPSHOT.jar
