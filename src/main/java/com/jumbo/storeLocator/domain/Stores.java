@@ -6,6 +6,7 @@ package com.jumbo.storeLocator.domain;
 import com.fasterxml.jackson.annotation.JsonIncludeProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import javax.persistence.Entity;
 import java.math.BigDecimal;
 import java.util.Date;
 

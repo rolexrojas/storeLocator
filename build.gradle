@@ -24,6 +24,8 @@ jar {
 }
 
 dependencies {
+	compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.12.1'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.1'
 	// implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'com.google.code.gson:gson:2.8.7'
@@ -34,6 +36,13 @@ dependencies {
 	implementation  group:'com.h2database', name:'h2' , version:'1.4.195'
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.5.2'
+	implementation 'com.google.maps:google-maps-services:0.19.0'
+	// https://mvnrepository.com/artifact/com.google.maps/mapsengine-api-java-wrapper
+	implementation group: 'com.google.maps', name: 'mapsengine-api-java-wrapper', version: '0.2'
+
+
+
+
 
 
 
