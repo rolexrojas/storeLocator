@@ -5,6 +5,7 @@ import com.jumbo.storeLocator.config.ApplicationProperties;
 import com.jumbo.storeLocator.domain.StoreLocation;
 import com.jumbo.storeLocator.domain.Stores;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;

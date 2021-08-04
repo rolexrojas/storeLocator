@@ -1,4 +1,4 @@
-package com.jumbo.storeLocator.config;
+package com.jumbo.storeLocator.scenario.StoreLocations;
 
 import com.jumbo.storeLocator.controller.StoreLocationController;
 import org.junit.jupiter.api.Test;
@@ -15,5 +15,6 @@ public class SmokeTest {
     @Test
     public void contextLoads() throws Exception {
         assertThat(storeLocationController).isNotNull();
+
     }
 }
